@@ -318,7 +318,7 @@ class DropdownField extends FormField {
 		} else {
 			$sourceArray = array();
 			foreach ($source as $key => $value) {
-				$sourceArray[$key] = $value;
+				$sourceArray[$value->ID] = $value;
 			}
 		}
 		return $sourceArray;
